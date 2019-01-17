@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backcolor"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.contactapp.Main3Activity">
+
+    <LinearLayout
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save To Phone"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="110dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+    <ImageView
+
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/profile"/>
+<LinearLayout
+
+    android:padding="10dp"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/namee"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:padding="15dp"/>
+    <EditText
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Company"
+        android:textSize="15dp"
+        android:padding="15dp"/>
+    <EditText
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:textSize="15dp"
+        android:padding="15dp"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/mob"/>
+        <EditText
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/numberr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:inputType="number"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/email"
+            />
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+
+            android:inputType="textEmailAddress"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+       android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Group name"
+            android:textSize="15dp"
+            android:padding="10dp"
+            />
+        <TextView
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">"
+            android:layout_marginLeft="200dp"
+            android:textSize="20dp"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:id="@+id/save"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:background="#1198af"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="40dp"/>
+</LinearLayout>

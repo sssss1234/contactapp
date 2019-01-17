@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcolor"
+    tools:context="com.example.dell.contactapp.Main2Activity">
+    <LinearLayout
+        android:padding="5dp"
+android:background="#C0C0C0"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recents"
+            android:textColor="@android:color/white"
+android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/recentt"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"/>
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contacts"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/set"
+        android:background="@drawable/setting"
+        android:layout_marginLeft="60dp"
+        android:padding="5dp"
+        android:layout_marginTop="7dp"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/search"
+        android:background="@drawable/border"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp" />
+    <LinearLayout
+
+android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@drawable/profile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textColor="@android:color/white"
+            android:textStyle="normal"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="180dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">"
+            android:textColor="@android:color/white"
+            android:textStyle="normal"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@android:color/transparent"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/profile"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:textColor="@android:color/white"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My groups"
+            android:textStyle="normal"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="153dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">"
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            />
+    </LinearLayout>
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="459dp"
+        android:id="@+id/listview_Android_Contacts"
+        >
+
+</ListView>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:id="@+id/color"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/dial"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="300dp"
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="-70dp"
+        android:background="@drawable/button"
+        android:text="+"
+        />
+</LinearLayout>

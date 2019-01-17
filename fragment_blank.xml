@@ -1,0 +1,172 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcolor"
+    tools:context="com.example.dell.contactapp.BlankFragment">
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/EditTextPhoneNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:cursorVisible="false"
+            android:gravity="fill_vertical|center"
+            android:textSize="24.0sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:scrollHorizontally="true"
+            android:maxLines="1"
+            />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+   android:id="@+id/one"
+            android:layout_width="126dp"
+            android:layout_height="60dp"
+            android:background="@drawable/dailboder"
+            android:text="1
+ABC"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"/>
+        <Button
+            android:id="@+id/two"
+            android:layout_width="126dp"
+            android:layout_height="60dp"
+            android:background="@drawable/dailboder"
+            android:text="2
+DEF"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"/>
+        <Button
+            android:id="@+id/three"
+            android:layout_width="126dp"
+            android:layout_height="60dp"
+            android:background="@drawable/dailboder"
+            android:text="3
+GHI"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/four"
+            android:layout_width="126dp"
+            android:layout_height="60dp"
+            android:background="@drawable/dailboder"
+            android:text="4
+JKL"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"/>
+        <Button
+            android:id="@+id/five"
+            android:layout_width="126dp"
+            android:layout_height="60dp"
+            android:background="@drawable/dailboder"
+            android:text="5
+MNO"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"/>
+        <Button
+            android:id="@+id/six"
+            android:layout_width="126dp"
+            android:layout_height="60dp"
+            android:background="@drawable/dailboder"
+            android:text="6
+PQR"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="126dp"
+                android:layout_height="60dp"
+                android:background="@drawable/dailboder"
+                android:text="7
+STU"
+                android:textColor="@android:color/white"
+                android:textSize="15dp"/>
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="126dp"
+                android:layout_height="60dp"
+                android:background="@drawable/dailboder"
+                android:text="8
+VWX"
+                android:textColor="@android:color/white"
+                android:textSize="15dp"/>
+            <Button
+                android:id="@+id/nine"
+                android:layout_width="126dp"
+                android:layout_height="60dp"
+                android:background="@drawable/dailboder"
+                android:text="9
+XYZ"
+                android:textColor="@android:color/white"
+                android:textSize="15dp"/>
+
+
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/st"
+        android:layout_width="126dp"
+        android:layout_height="60dp"
+        android:background="@drawable/dailboder"
+        android:text="*
+,"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"/>
+    <Button
+        android:id="@+id/zero"
+        android:layout_width="126dp"
+        android:layout_height="60dp"
+        android:background="@drawable/dailboder"
+        android:text="0
++"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"/>
+    <Button
+        android:id="@+id/hash"
+        android:layout_width="126dp"
+        android:layout_height="60dp"
+        android:background="@drawable/dailboder"
+        android:text="#
+"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"/>
+
+
+</LinearLayout>
+        <ImageButton
+            android:id="@+id/call"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ph"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="170dp"/>
+    </LinearLayout>
+</FrameLayout>
